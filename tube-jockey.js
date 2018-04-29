@@ -102,7 +102,7 @@ module.exports = function(auth) {
             console.log(item.contentDetails.videoId)
         })
 
-        return playlistItemsToRemove.reverse()
+        return playlistItemsToRemove
     }
 
     function removeAllFromPlaylist(playlistItemsToRemove) {
